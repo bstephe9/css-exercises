@@ -27,3 +27,30 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* My solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  display: flex;
+}
+
+.card-container {
+  display: flex;
+}
+
+.footer {
+  display: flex;
+}
